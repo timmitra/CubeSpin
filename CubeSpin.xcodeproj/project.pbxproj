@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		2A123D4E2CA49D6300B599A6 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2A123D4D2CA49D6300B599A6 /* RealityKitContent */; };
 		2A123D502CA49D6300B599A6 /* CubeSpinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A123D4F2CA49D6300B599A6 /* CubeSpinApp.swift */; };
-		2A123D522CA49D6300B599A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A123D512CA49D6300B599A6 /* ContentView.swift */; };
+		2A123D522CA49D6300B599A6 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A123D512CA49D6300B599A6 /* LaunchView.swift */; };
 		2A123D542CA49D6400B599A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A123D532CA49D6400B599A6 /* Assets.xcassets */; };
 		2A123D572CA49D6400B599A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A123D562CA49D6400B599A6 /* Preview Assets.xcassets */; };
+		2A123D5F2CA49DB800B599A6 /* CubeModel3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A123D5E2CA49DB800B599A6 /* CubeModel3DView.swift */; };
+		2A123D612CA49E3500B599A6 /* Cube.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2A123D602CA49E3500B599A6 /* Cube.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A123D482CA49D6300B599A6 /* CubeSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A123D4C2CA49D6300B599A6 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		2A123D4F2CA49D6300B599A6 /* CubeSpinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeSpinApp.swift; sourceTree = "<group>"; };
-		2A123D512CA49D6300B599A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A123D512CA49D6300B599A6 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		2A123D532CA49D6400B599A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A123D562CA49D6400B599A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A123D582CA49D6400B599A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A123D5E2CA49DB800B599A6 /* CubeModel3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeModel3DView.swift; sourceTree = "<group>"; };
+		2A123D602CA49E3500B599A6 /* Cube.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cube.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 		2A123D4A2CA49D6300B599A6 /* CubeSpin */ = {
 			isa = PBXGroup;
 			children = (
+				2A123D602CA49E3500B599A6 /* Cube.usdz */,
 				2A123D4F2CA49D6300B599A6 /* CubeSpinApp.swift */,
-				2A123D512CA49D6300B599A6 /* ContentView.swift */,
+				2A123D512CA49D6300B599A6 /* LaunchView.swift */,
 				2A123D532CA49D6400B599A6 /* Assets.xcassets */,
 				2A123D582CA49D6400B599A6 /* Info.plist */,
 				2A123D552CA49D6400B599A6 /* Preview Content */,
+				2A123D5E2CA49DB800B599A6 /* CubeModel3DView.swift */,
 			);
 			path = CubeSpin;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A123D572CA49D6400B599A6 /* Preview Assets.xcassets in Resources */,
+				2A123D612CA49E3500B599A6 /* Cube.usdz in Resources */,
 				2A123D542CA49D6400B599A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A123D522CA49D6300B599A6 /* ContentView.swift in Sources */,
+				2A123D522CA49D6300B599A6 /* LaunchView.swift in Sources */,
+				2A123D5F2CA49DB800B599A6 /* CubeModel3DView.swift in Sources */,
 				2A123D502CA49D6300B599A6 /* CubeSpinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

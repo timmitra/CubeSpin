@@ -15,7 +15,11 @@ import SwiftUI
 struct CubeSpinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
+        WindowGroup(id: "CubeWindow") {
+            CubeModel3DView()
+        }
+        .defaultSize(width: 500, height: 500)
     }
 }

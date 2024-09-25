@@ -11,20 +11,14 @@
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
 
-struct ContentView: View {
+struct CubeModel3DView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-        }
-        .padding()
+        Model3D(named: "Cube")
+            .padding3D(.back, 80)
     }
 }
 
-#Preview(windowStyle: .automatic) {
-    ContentView()
+#Preview {
+    CubeModel3DView()
 }
